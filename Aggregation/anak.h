@@ -1,13 +1,14 @@
-#ifndef JANTUNG_H
-#define JANTUNG_H
+#ifndef ANAK_H
+#define ANAK_H
 
-class jantung {
+class anak {
 public:
-	jantung() {
-		cout << "jantung dihidupkan\n";
+	string nama;
+	anak(string pNama) :nama(pNama) {
+		cout << "Anak\"" << nama << "\"ada\n";
 	}
-	~jantung() {
-		cout << "jantung dimatikan\n";
+	~anak() {
+		cout << "Anak\"" << nama << "\"tidak ada\n";
 	}
 };
 #endif
