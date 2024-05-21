@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Aggregationn.cpp">
+    <ClCompile Include="Assosiation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
