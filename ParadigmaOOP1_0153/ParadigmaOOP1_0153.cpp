@@ -15,8 +15,10 @@ public:
 		cout << "Id=" << id << endl;
 		cout << "Nama=" << id << endl;
 	}
+};
 
+int main() {
+	mahasiswa mhs(12, "Asroni", 90.5);
 
-	
-
+	return 0;
 }
